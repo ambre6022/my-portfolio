@@ -33,7 +33,10 @@
     --smaller-font-size: .875rem;
   }
 }
-
+*{
+  margin: 0px;
+  padding: 0px;
+}
 /*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
@@ -310,6 +313,23 @@ img {
 }
 
 /* ===== WORK =====*/
+.card {
+  background: white;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+}
+.card_main {
+  background: white;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  text-align: center;
+}
 .work__container {
   row-gap: 2rem;
 }
