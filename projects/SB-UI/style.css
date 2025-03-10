@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;;
+}
+.rounded{
+    width: 120px;
+}
+.part-2{
+    height: 480px;
+    width: 100%;
+    background-color:  #f2f6fc !important;
+}
+.learn{
+    background-color: transparent;
+}
+.card{
+     height: auto;
+     width: 100%;
+}
+img{
+    object-fit: cover;
+}
+.card:hover{
+    box-shadow: 1px 3px 6px 8px rgb(122, 122, 122);
+    transform: translateY(-9px);
+    transition: ease-in-out;
+    transition-duration: .1s;
+}
+.Lorem{
+    height: 4.1rem;
+    border: 1px solid rgb(209, 209, 209);
+    font-size: 1rem;
+}
+.book{
+    height: 480px;
+    width: 100%;
+    background-color:  #f2f6fc !important;
+}
+@media (min-width:100px) and (max-width:700px) {
+    .lorem3{
+        height: 100%;
+    }
+    .none{
+        display: none;
+    }
+}
